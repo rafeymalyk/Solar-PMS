@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Relay Control</title>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+
+        <script src = "script.js"></script>
+        <link rel="stylesheet" type="text/css" href ="style.css">
+        <style>
+            h3 { 
+              display: block;
+              font-size: 25px;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              margin-left: 80px;
+              margin-right: 50px;
+              font-weight: bold;
+            }
+            </style>
+        <body>
+            <h1>Solar PMS</h1>
+            <h3 style="text-align:left">Inverter ON/OFF</h3>
+            <h2 style="text-align:center">Solar ON/OFF</h2>
+        </body>  
+            
+    </head>
+    <body>
+        <div class = "wrapper">
+            <a class = "icon1" >
+				<i class="fas fa-4x fa-tv"></i>
+			</a>
+            <div class = "progress">
+                <div class = "toggle-btn" id ="unact">
+                    <div class = "inner-circle"></div>
+                </div>
+                <div class = "toggle-btn active" id ="act">
+                    <div class = inner-circle></div>
+                </div>
+            </div>
+
+                
+        </div>
+        <div class="progress1">
+			<a class = "icon1" >
+				<i class="fas fa-4x fa-tv"></i>
+			</a>
+			<div class= "toggle-btn1" id="unact1">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn1 active" id="act1" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+       
+    </body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-color: rgb(238, 238, 163);
+  }
+.wrapper{
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.progress{
+    margin: 10px auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.progress1{
+    margin: -275px auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.toggle-btn, .toggle-btn1{
+    width: 80px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 5px;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn > .inner-circle{
+    width: 40px;
+    height: 40px;
+    background: rgb(82, 47, 50);
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn1 > .inner-circle{
+    width: 40px;
+    height: 40px;
+    background: rgb(82, 47, 50);
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn.active{
+    background: #000000;
+    box-shadow: 0 0 10px #000000, 0 0 40px #d8294f, 0 0 80px #000000;
+    transition-delay:0.5s;
+}
+.toggle-btn1.active{
+    background: #000000;
+    box-shadow: 0 0 10px #000000, 0 0 40px #d8294f, 0 0 80px #000000;
+    transition-delay:0.5s;
+}
+.toggle-btn.active> .inner-circle{
+    margin-left: 60px;
+}
+.toggle-btn1.active> .inner-circle{
+    margin-left: 60px;
+}
+.icon1{	
+    
+	color: rgb(3, 3, 3);
+	margin: 10px auto;
+    
+}
